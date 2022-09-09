@@ -1,6 +1,12 @@
 .toolbar {
   height: 100vh;
 }
+@media (max-width: 700px) {
+  .toolbar  {
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
 
 .example-container {
   width: 400px;
@@ -55,4 +61,3 @@
 .example-list.cdk-drop-list-dragging .example-box:not(.cdk-drag-placeholder) {
   transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
 }
-
